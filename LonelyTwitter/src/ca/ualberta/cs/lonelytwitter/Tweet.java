@@ -8,8 +8,8 @@ import java.util.Date;
 
 
 public class Tweet implements Serializable {
-	private Date tweetDate;
-	private String tweetBody;
+	public Date tweetDate;
+	public String tweetBody;
 
 
 	public Tweet(Date tweetDate, String tweetBody) {
